@@ -1,6 +1,8 @@
 # This repository is to illustrate how to apply RabbitMQ and address advanced issues concerning RabbitMQ
 ## docker
-``` docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+``` 
+docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+
 ```
 ## Maven 
 ```
